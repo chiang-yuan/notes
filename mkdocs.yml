@@ -5,7 +5,7 @@ site_url: https://chiang-yuan.github.io/notes # Change this to your site URL
 theme:
     name: 'material'
     logo: assets/meta/favicons.png
-    favicon: 🌀
+    favicon: assets/meta/favicons.png
     custom_dir: overrides
     font:
         text: Ubuntu

@@ -13,7 +13,7 @@ $$\rm crystal = lattice + bases$$
 (Bravais) lattice is a periodic array in which the repeated units of the crystal cell are arranged. Bravais lattice consists of all points defined by position vectors $$\mathbf{R} = u \mathbf{a} + v \mathbf{b} + w \mathbf{c}$$, where $\mathbf{a}, \mathbf{b}, \mathbf{c}$ are non-coplanar vectors and $u,v, w$ are integers.
 
 
-![center](./_media/Pasted%20image%2020221227172449.png)
+![center](./_media/lattice.png)
 
 
 There are 7 lattice (crystal) systems, 14 three-dimensional Bravais lattices

@@ -10,7 +10,9 @@ $$\rm crystal = lattice + bases$$
 # 7 lattice systems, 14 Bravais lattices
 
 
-(Bravais) lattice is a periodic array in which the repeated units of the crystal cell are arranged. Bravais lattice consists of all points defined by position vectors $$\mathbf{R} = u \mathbf{a} + v \mathbf{b} + w \mathbf{c}$$, where $\mathbf{a}, \mathbf{b}, \mathbf{c}$ are non-coplanar vectors and $u,v, w$ are integers.
+(Bravais) lattice is a periodic array in which the repeated units of the crystal cell are arranged. Bravais lattice consists of all points defined by position vectors 
+
+$$\mathbf{R} = u \mathbf{a} + v \mathbf{b} + w \mathbf{c}$$, where $\mathbf{a}, \mathbf{b}, \mathbf{c}$ are non-coplanar vectors and $u,v, w$ are integers.
 
 
 ![center](./_media/lattice.png)
@@ -18,7 +20,7 @@ $$\rm crystal = lattice + bases$$
 
 There are 7 lattice (crystal) systems, 14 three-dimensional Bravais lattices
 
-![Pasted image 20230814134147](./_media/Pasted%20image%2020230814134147.png)
+![crystal-system-table](./_media/crystal-system-table.png)
 
 
 | Lattice symbol | Name           | Coordinates                                            |
@@ -31,12 +33,14 @@ There are 7 lattice (crystal) systems, 14 three-dimensional Bravais lattices
 | B              | Based centered | $(0,0,0), (1/2, 0, 1/2)$                               | 
 
 
-![center](./_media/Pasted%20image%2020221204173228.png)
+![center](./_media/lattice-symbol.png)
 
 ![center](./_media/Pasted%20image%2020221204174026.png)
 
 
-The number of lattice points per unit cell is given by $$N = N_i + \frac{N_f}{2} + \frac{N_c}{8}$$, where $N_i$ is the number of interior points, $N_f$ is the number of points on faces, and $N_c$ is the number of points on corners.
+The number of lattice points per unit cell is given by 
+
+$$N = N_i + \frac{N_f}{2} + \frac{N_c}{8}$$, where $N_i$ is the number of interior points, $N_f$ is the number of points on faces, and $N_c$ is the number of points on corners.
 
 
 ![Pasted image 20221204184558](./_media/Pasted%20image%2020221204184558.png)
@@ -111,24 +115,32 @@ Translation and symmetry operation acting through a point specify the ***space g
 # Zonal equation
 
 
-![Pasted image 20230201152251](./_media/Pasted%20image%2020230201152251.png)
+![zonal-equation](./_media/zonal-equation.png)
 
 
 ***Planes of a zone*** are planes which are all parallel to one line called ***zone axis***, which is also the incident beam direction!
 
-![center](./_media/Pasted%20image%2020221204193759.png)
+![center](./_media/zonal-axis.png)
 
 
 
 # Reciprocal lattice
 
-Vector in reciprocal lattice $\mathbf{g}_{hkl}$ is normal to the set of planes with the Miller indices $\left(hkl\right)$. Thus $\mathbf{g}_{hkl}$ can be written in terms of the unit cell vectors of the reciprocal lattice as $$\mathbf{g}_{hkl} = h \mathbf{a}^\star + k \mathbf{b}^\star + l \mathbf{c}^\star$$, where the basis of the reciprocal lattice is $$\begin{align*}
+Vector in reciprocal lattice $\mathbf{g}_{hkl}$ is normal to the set of planes with the Miller indices $\left(hkl\right)$. Thus $\mathbf{g}_{hkl}$ can be written in terms of the unit cell vectors of the reciprocal lattice as 
+
+$$\mathbf{g}_{hkl} = h \mathbf{a}^\star + k \mathbf{b}^\star + l \mathbf{c}^\star$$
+
+, where the basis of the reciprocal lattice is 
+
+$$\begin{align*}
 \mathbf{a}^\star &=  \frac{2\pi\mathbf{b}\times \mathbf{c}}{\left| \left(\mathbf{a}\times \mathbf{b}\right)\cdot \mathbf{c}\right|}\\
 \mathbf{b}^\star &=  \frac{2\pi\mathbf{c}\times \mathbf{a}}{\left| \left(\mathbf{a}\times \mathbf{b}\right)\cdot \mathbf{c}\right|}\\
 \mathbf{c}^\star &=  \frac{2\pi\mathbf{a}\times \mathbf{b}}{\left| \left(\mathbf{a}\times \mathbf{b}\right)\cdot \mathbf{c}\right|}
-\end{align*}$$. The length of reciprocal vector $\left|\mathbf{g}_{hkl}\right|$ is therefore $$\boxed{\left|\mathbf{g}_{hkl}\right| = \frac{2\pi}{d_{hkl}}}$$
+\end{align*}$$. The length of reciprocal vector $\left|\mathbf{g}_{hkl}\right|$ is therefore 
 
-![450](./_media/Pasted%20image%2020230211234620.png)
+$$\boxed{\left|\mathbf{g}_{hkl}\right| = \frac{2\pi}{d_{hkl}}}$$
+
+![450](Natural%20Science/Materials/_media/Pasted%20image%2020230211234620.png)
 
 
 # Symmetry
@@ -139,17 +151,17 @@ Vector in reciprocal lattice $\mathbf{g}_{hkl}$ is normal to the set of planes w
 
 ## Rotation
 
-![center](./_media/Pasted%20image%2020221227191954.png)
+![center](Natural%20Science/Materials/_media/Pasted%20image%2020221227191954.png)
 
 > [!Danger] Crystallographic restriction theorem 
-> ![Pasted image 20230801230834](./_media/Pasted%20image%2020230801230834.png) 
+> ![Pasted image 20230801230834.png](Natural%20Science/Materials/_media/Pasted%20image%2020230801230834.png) 
 > $$2a\cos \theta = 2a \cos \frac{2\pi}{n} = m \in \mathbb{N}$$
 
 
 
 ## Reflection
 
-![center](./_media/Pasted%20image%2020221227192023.png)
+![center](Natural%20Science/Materials/_media/Pasted%20image%2020221227192023.png)
 
 ## Inversion
 
@@ -162,9 +174,9 @@ Different symmetry operation acting through a point are termed ***point group***
 - In two dimension there are **10 point groups**.
 - In three dimensions there are **32 point groups**.
 
-![Pasted image 20230212135703](./_media/Pasted%20image%2020230212135703.png)
-![Pasted image 20230212140356](./_media/Pasted%20image%2020230212140356.png)
-![Pasted image 20230212135802](./_media/Pasted%20image%2020230212135802.png)
+![Pasted image 20230212135703.png](Natural%20Science/Materials/_media/Pasted%20image%2020230212135703.png)
+![Pasted image 20230212140356.png](Natural%20Science/Materials/_media/Pasted%20image%2020230212140356.png)
+![Pasted image 20230212135802.png](Natural%20Science/Materials/_media/Pasted%20image%2020230212135802.png)
 
 
 
@@ -181,7 +193,7 @@ i &=  -(h + k) = -\frac{1}{3}\left(U +V\right)\\
 l &= W &\qquad W &= l \\
 \end{align*}$$.
 
-![center|300](./_media/Pasted%20image%2020230128012252.png)
+![center|300](Natural%20Science/Materials/_media/Pasted%20image%2020230128012252.png)
 
 
 
@@ -193,12 +205,12 @@ l &= W &\qquad W &= l \\
 ionic solids: CsCl
 intermetallic compounds: CuZn ($\sf \beta-brass$)
 
-![center](./_media/Pasted%20image%2020221018173358.png)
+![center](Pasted%20image%2020221018173358.png)
 
 ## Substitutional FCC: Perovskite $\sf Cu_3Au$ 
 
 
-![center](./_media/Pasted%20image%2020221018173757.png)
+![center](Pasted%20image%2020221018173757.png)
 
 
 > [!warning]
@@ -213,7 +225,7 @@ Natural choice for equivalent ionic compounds: NaCl, MgO
 
 
 
-![center](./_media/Pasted%20image%2020221018173952.png)
+![center](Pasted%20image%2020221018173952.png)
 
 ## Tetrahedral interstices in FCC: Zinc-blende $\sf \beta-ZnS$
 
@@ -221,18 +233,18 @@ Natural choice for equivalent ionic compounds: NaCl, MgO
 Natural choice for covalently bonded binary compounds
 
 - Important for engineering: 
-	- III-V [semiconductors](Semiconductors.md): GaAs, InSb
-	- II-VI [semiconductors](Semiconductors.md): ZnS, CdS
+	- III-V [semiconductors](semiconductors.md): GaAs, InSb
+	- II-VI [semiconductors](semiconductors.md): ZnS, CdS
 
-![center](./_media/Pasted%20image%2020221018174310.png)
+![center](Pasted%20image%2020221018174310.png)
 
 ## Tetrahedral interstices in HCP: Wurtzite $\rm Ć-ZnS$
 
 ***Wurtzite***, analog to lonsdaleite
 
-$\rm Ć-ZnS$ tends to be electrical [insulators](Insulators.md) with large band gaps.
+$\rm Ć-ZnS$ tends to be electrical [insulators](insulators.md) with large band gaps.
 
-![center|300](./_media/Pasted%20image%2020221230023841.png)
+![center|300](Natural%20Science/Materials/_media/Pasted%20image%2020221230023841.png)
 
 
 ## Tetrahedral interstices in BCC: A15 structure $\rm Nb_3Sn$
@@ -241,13 +253,13 @@ A15 superconductors
 
 Separated chains of tetrahedral atoms provide easy pathways for current flow.
 
-![center|400](./_media/Nb3Sn--crystal-toolkit.png)
+![center|400](Natural%20Science/Materials/_media/Nb3Sn--crystal-toolkit.png)
 
 
 ## Order of interstitial compounds
 
 
-![center](./_media/Pasted%20image%2020221018180711.png)
+![center](Pasted%20image%2020221018180711.png)
 
 
 

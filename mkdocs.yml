@@ -1,11 +1,11 @@
-site_name: notes # Change this to your site name
-site_description: A cool description of your site
+site_name: Cyclone Notes # Change this to your site name
+site_description: The digital clone of Cyrus's note
 site_url: https://chiang-yuan.github.io/notes # Change this to your site URL
 
 theme:
     name: 'material'
     logo: assets/meta/favicons.png
-    favicon: assets/meta/favicons.png
+    favicon: 🌀
     custom_dir: overrides
     font:
         text: Ubuntu
